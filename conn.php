@@ -1,13 +1,10 @@
 <?php
-
-
- 
 $host= "localhost";
-$user = "id2061448_yatin";
-$pass ="12345678";
-$dbnm ="id2061448_mysql";
+$user = "root";
+$pass ="";
+$dbnm ="todo";
 
-$conn=new mysqli($host,$user,$pass,$dbnm);
+$conn = new mysqli($host, $user, $pass, $dbnm);
 
-$k=0;
+
 ?>
